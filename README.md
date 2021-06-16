@@ -1667,7 +1667,6 @@ UIS.InputEnded:connect(function(input,gameprocesed)
 				game.Players.LocalPlayer:GetMouse().Target:Destroy()
 			end
 		end
-
 	end
 	telepo = false
 end)
