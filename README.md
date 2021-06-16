@@ -1718,6 +1718,7 @@ Button_7.MouseButton1Click:Connect(function()
 	end
 	stab6 = true
 end)
+local success, response = pcall(function()
 local l__DeleteCar__2 = game.ReplicatedStorage.CarEvents:WaitForChild("DeleteCar");
 local l__SpawnCar__4 = game.ReplicatedStorage.CarEvents:WaitForChild("SpawnCar");
 for i,v in pairs(ScrollingFrame1:GetChildren()) do
@@ -1728,6 +1729,7 @@ for i,v in pairs(ScrollingFrame1:GetChildren()) do
 		l__SpawnCar__4:FireServer(l__Name__5)
 	end)
 end
+end)
 stab7 = true
 rob  =false
 Button_8.MouseButton1Click:Connect(function()
