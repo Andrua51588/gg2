@@ -1,3 +1,4 @@
+
 local ScreenGui = Instance.new("ScreenGui")
 local Rules = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -1602,7 +1603,6 @@ UIS.InputEnded:connect(function(input,gameprocesed)
 				end	
 			end
 		end
-
 	end
 	left = false
 end)
